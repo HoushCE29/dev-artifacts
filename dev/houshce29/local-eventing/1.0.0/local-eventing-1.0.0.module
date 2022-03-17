@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.houshce29",
+    "module": "local-eventing",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "local-eventing-1.0.0.jar",
+          "url": "local-eventing-1.0.0.jar",
+          "size": 6400,
+          "sha512": "c34dd2a12f24435919b21d6e18cd0047f95bf14a5d2c0b2aaf6f4e0d2838321c1ad12d220038162c1148bdd3ec60251f2966aa859ac6cad20656b3fcfd55f478",
+          "sha256": "3b26e8ded5c35a4689ac4078fe1d4141e0816e1a3e500fa8ff7936f95daacea3",
+          "sha1": "3a6d6084e17bcf41d8e628b0313c757fa8108b7a",
+          "md5": "7b0f27597da4dbd1eb8ed3d6f61a9fa6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.16"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-websocket",
+          "version": {
+            "requires": "5.3.16"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-messaging",
+          "version": {
+            "requires": "5.3.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "local-eventing-1.0.0.jar",
+          "url": "local-eventing-1.0.0.jar",
+          "size": 6400,
+          "sha512": "c34dd2a12f24435919b21d6e18cd0047f95bf14a5d2c0b2aaf6f4e0d2838321c1ad12d220038162c1148bdd3ec60251f2966aa859ac6cad20656b3fcfd55f478",
+          "sha256": "3b26e8ded5c35a4689ac4078fe1d4141e0816e1a3e500fa8ff7936f95daacea3",
+          "sha1": "3a6d6084e17bcf41d8e628b0313c757fa8108b7a",
+          "md5": "7b0f27597da4dbd1eb8ed3d6f61a9fa6"
+        }
+      ]
+    }
+  ]
+}
